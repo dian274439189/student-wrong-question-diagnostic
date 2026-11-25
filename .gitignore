@@ -1,0 +1,30 @@
+# 生成的成果文件
+output/
+*.docx
+
+# 真实试卷数据与结构化输入（防止误提交学生隐私）
+*input*.json
+*原文*.json
+*答案*.json
+!templates/sample-exam.json
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# 凭证（本仓库不应出现）
+.env
+*.pem
+*.key
+credentials.json
